@@ -16,11 +16,8 @@ int main(void)
 		{
 			continue;
 		}
-		else
-		{
-			putchar(start);
-			start++;
-		}
+		putchar(start);
+		start++;
 	}
 	putchar('\n');
 	return (0);

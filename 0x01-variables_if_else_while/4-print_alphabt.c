@@ -8,16 +8,13 @@ int main(void)
 {
 	char start;
 
-	start = 'a';
-
-	while (start <= 'z')
+	for (start = 'a'; start <= 'z'; start++)
 	{
 		if (start == 'q' || start == 'e')
 		{
 			continue;
 		}
 		putchar(start);
-		start++;
 	}
 	putchar('\n');
 	return (0);

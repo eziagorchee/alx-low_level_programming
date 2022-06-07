@@ -6,18 +6,15 @@
 
 int main(void)
 {
-	unsigned int start = 0;
+	unsigned int start;
 
-	while (start < 10)
+	for (start = 10; start < 20; start++)
 	{
-		if (start == 9)
+		putchar((start % 10) + '0');
+		if (start != 19)
 		{
-			putchar('0' + start);
-		}
-		else
-		{
-			putchar('0' + start);
-			putchar(', ');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');

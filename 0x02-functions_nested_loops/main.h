@@ -1,5 +1,5 @@
-#ifndef main.h
-#define (main.h)
+#ifndef _MAIN_H_
+#define MAIN_H
 /**
  * File: main.h
  * Description: Custom function prototype declarations
@@ -10,7 +10,7 @@
  * Return: 1
  * @char: represents single English letter
  */
-int _putchar(char);
+int _putchar(char c);
 
 /**
  * print_alphabet: this displays lower case alphabets

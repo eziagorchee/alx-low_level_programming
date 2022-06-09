@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10: displays alphabets
+ * print_alphabet_x10 - displays alphabets
  * Return: always 0
  */
 void print_alphabet_x10(void)
@@ -17,6 +17,6 @@ void print_alphabet_x10(void)
 			ah++;
 		}
 		_putchar('\n');
+		count = count + 1;
 	}
-	count++;
 }

@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - entry point
+ * @c: The number to be checked
  * Return: returns 1 on success
  */
 int _islower(int c)

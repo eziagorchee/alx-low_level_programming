@@ -7,7 +7,7 @@
  */
 int _abs(int num)
 {
-	num = return (abs(num));
+	num = abs(num);
 	_putchar(num);
-	return (1);
+	return (num);
 }

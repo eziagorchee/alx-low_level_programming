@@ -8,6 +8,5 @@
 int _abs(int num)
 {
 	num = abs(num);
-	_putchar(num);
 	return (num);
 }

@@ -3,7 +3,7 @@
  * add - entry point
  * @a: first number
  * @b: second number
- * Return: 1;
+ * Return: a + b;
  */
 int add(int a, int b)
 {

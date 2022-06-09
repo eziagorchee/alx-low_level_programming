@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * islower - entry point
+ * _islower - entry point
  * Return: returns 1 on success
  */
-int islower(int c)
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 		return (1);

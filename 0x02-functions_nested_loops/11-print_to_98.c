@@ -6,13 +6,17 @@
  */
 void print_to_98(int n)
 {
-	int loop = 0;
-	while (loop == n && loop <= 98)
+	if (n == 0 || n == 98)
 	{
-		_putchar(n + '0');
+		_putchar(n);
 		_putchar(',');
 		_putchar(' ');
 	}
-	loop++;
+	for (int loop = n; loop < 98; loop++)
+	{
+		_putchar(n);
+		_putchar(',');
+		_putchar(' ');
+	}
 	_putchar('\n');
 }

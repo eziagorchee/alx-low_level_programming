@@ -4,10 +4,10 @@
  */
 void more_numbers(void)
 {
-	int i = '0';
+	int i = '1';
 	int j = '0';
 
-	while (i >= '0' && i <= '10')
+	while (i >= '1' && i <= '10')
 	{
 		while (j >= '0' && j <= '14')
 		{

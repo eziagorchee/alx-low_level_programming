@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "main.h"
 /**
- * print_num_buzz - function name
+ * main - function name
+ * Return: 0 on success
  */
-void print_num_buzz(void)
+int main(void)
 {
 	int i = 1;
 
@@ -20,4 +20,5 @@ void print_num_buzz(void)
 		i++;
 	}
 	printf("\n");
+	return (0);
 }

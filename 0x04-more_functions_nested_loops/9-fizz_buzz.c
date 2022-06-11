@@ -19,4 +19,5 @@ void print_num_buzz(void)
 			printf("%d ", i);
 		i++;
 	}
+	printf("\n");
 }

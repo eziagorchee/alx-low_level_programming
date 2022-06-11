@@ -20,6 +20,7 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_num_buzz(void);
 void print_triangle(int size);
+void print_number(int n);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);

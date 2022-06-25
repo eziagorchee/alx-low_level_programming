@@ -11,10 +11,14 @@ void rev_string(char *s)
 
 	while (s[index] != 0)
 		index++;
+	char reverstr[index];
+	int last_index = index;
+
 	while (index > 0)
 	{
+		reverstr[last_index - index] = s[index - 1];
+		_putchar(reverstr[last_index - index]);
 		index--;
-		_putchar(s[index]);
 	}
 	_putchar('\n');
 }

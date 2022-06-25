@@ -11,7 +11,7 @@ void rev_string(char *s)
 
 	while (s[index] != 0)
 		index++;
-	#define SIZE = index
+	#define SIZE index
 	char reverstr[SIZE];
 	int last_index = index;
 

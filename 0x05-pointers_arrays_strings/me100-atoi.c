@@ -13,6 +13,8 @@ int _atoi(char *s)
 	int seen_number = 0;
 	int answer = 0;
 	int num;
+	int power;
+	int powerAns;
 
 	while (s[index])
 	{
@@ -39,28 +41,18 @@ int _atoi(char *s)
 	while (start <= end)
 	{
 		num = s[start] - 48;
-		answer += num * _pow(10, (end - start));
+		powerAns = 1;
+		power = end - start;
+		index = 0;
+		while (index < power)
+		{
+			powerAns *= 10;
+			index++;
+		}
+		ans += num * powerAns;
 		start++;
 	}
 	if (minus % 2 != 0)
 		return (-1 * answer);
-	return (answer);
-}
-/**
- * _pow - function name
- * @num: int number
- * @power: num to raise to
- * Return: int number
- */
-int _pow(int num, int power)
-{
-	int answer = 1;
-	int index = 0;
-
-	while (index < power)
-	{
-		answer *= num;
-		index++;
-	}
 	return (answer);
 }

@@ -11,7 +11,7 @@ int _atoi(char *s)
 	int start = 0;
 	int end = 0;
 	int seen_number = 0;
-	int answer = 0;
+	unsigned int answer = 0;
 	int num;
 
 	while (s[index])

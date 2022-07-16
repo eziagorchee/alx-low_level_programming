@@ -19,4 +19,8 @@ void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
 int _putchar(char c);
+void add_remaining_values_from_both_string(char *str, int *i, int *j, int *carry, int *res, int *rem, char *r, int *k);
+void add_remaining_carry(int *carry, char *r, int *k);
+void add_numbers(char *n1, char *n2, int *i, int *j, int *carry, int *res, int *rem, char *r, int *k);
+void rearrange_digits(char *r, int *k, int *size_r);
 #endif
